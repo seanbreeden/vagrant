@@ -89,7 +89,7 @@ apt-get -y install memcached
 echo "Installing redis"
 apt-get -y install redis-server
 # composer
-echo "Installling Composer"
+echo "Installing Composer"
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 # permissions
